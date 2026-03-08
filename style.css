@@ -1,0 +1,156 @@
+body{
+font-family:Arial;
+margin:0;
+background:#f5f5f5;
+}
+
+header{
+background:#ee4d2d;
+color:white;
+padding:15px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+header input{
+width:40%;
+padding:10px;
+border:none;
+border-radius:5px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+padding:20px;
+}
+
+.product{
+background:white;
+padding:15px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 5px gray;
+}
+
+.product img{
+width:100%;
+}
+
+button{
+background:#ee4d2d;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;
+cursor:pointer;
+margin:5px;
+}
+
+button:hover{
+background:#d73211;
+}
+
+.auth{
+text-align:center;
+margin-top:100px;
+}
+
+.auth input{
+display:block;
+margin:10px auto;
+padding:10px;
+}
+
+.cartIcon{
+font-size:20px;
+}
+
+#cartPage{
+padding:20px;
+}
+
+.passwordField {
+  position: relative;
+  width: 200px; 
+  margin: 10px auto;
+}
+
+.passwordField input {
+  width: 100%;
+  padding: 10px;
+  padding-right: 80px; 
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  position: relative; 
+  z-index: 1; 
+}
+
+.passwordField .toggleBtn {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  z-index: 2; 
+  padding: 5px 10px;
+  background: #ee4d2d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.passwordField .toggleBtn:hover {
+  background: #d73211;
+}
+
+.product img{
+width:100%;
+height:150px;
+object-fit:cover;
+}
+
+.product button{
+display:block;
+width:100%;
+margin-top:10px;
+}
+
+.cartTable{
+width:100%;
+background:white;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+.cartTable th,
+.cartTable td{
+padding:15px;
+text-align:center;
+border-bottom:1px solid #ddd;
+}
+
+.cartProduct{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.cartProduct img{
+width:60px;
+height:60px;
+object-fit:cover;
+}
+
+.qtyBtn{
+padding:5px 10px;
+font-size:16px;
+cursor:pointer;
+}
+
+.removeBtn{
+background:red;
+}
